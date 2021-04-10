@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from moderation import *
 from fun import *
-from economy import *   #balance,beg,deposit,withdraw,rob,slot,send
+from economy import *   
 import random as rndm
 import json
 from cryptologi import*
