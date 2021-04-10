@@ -1,21 +1,7 @@
 import discord
-import io
-import random
-
 from cowpy import cow
 
 
-emote_id_match = re.compile(r"<:(.+?):(\d+)>")
-
-animated_emote_id_match = re.compile(r"<a:(.+?):(\d+)>")
-
-py = "```py\n{}```"
-
-xl = "```xl\n{}```"
-
-diff = "```diff\n{}```"
-
-# header = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0"}
 
 encode_morse ={
     "1":".----",
