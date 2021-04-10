@@ -1,8 +1,5 @@
 import discord
-from discord.ext import commands
-import smtplib as sm 
-import ssl 
-import emoji
+from discord.ext import commands 
 import random
 
 
