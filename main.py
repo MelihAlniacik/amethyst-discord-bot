@@ -5,7 +5,7 @@ from fun import *
 from economy import *   
 import random as rndm
 import json
-from cryptologi import*
+from hash import*
 import pyshorteners
 from covid import*
 
