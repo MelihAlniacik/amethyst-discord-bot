@@ -100,7 +100,7 @@ async def welcome(ctx):
 @bot.command()
 async def shorturl(ctx,link):
 	"""shortens link"""
-	s = pyshorteners.Shortener(api_key="3feb24f0f818bee5662f6a9bd72547816b6d78ad")
+	s = pyshorteners.Shortener(api_key="API KEY")
 	await ctx.send(s.bitly.short(link))
 	
 @bot.command()
